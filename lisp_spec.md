@@ -1,0 +1,60 @@
+This is the Lisp specification for this project. It lists all functions which will be available to the Lisp layer.
+
+This standard is **0%** implemented **(0/0 items complete)**
+
+- [ ] language
+  - [ ] conses
+    - [ ] car
+    - [ ] cdr
+    - [ ] cons
+  - [ ] numbers
+    - [ ] +, -, *, /, %
+    - [ ] bit operations
+  - [ ] characters
+    - [ ] intern
+  - [ ] symbols
+    - [ ] t & nil
+  - [ ] functions
+    - [ ] lambda
+    - [ ] functionp
+  - [ ] general
+    - [ ] setf
+    - [ ] read
+    - [ ] eval
+    - [ ] eq
+  - [ ] special forms
+    - [ ] if or cond
+    - [ ] quote
+    - [ ] progn
+    - [ ] let & let*
+    - [ ] macrolet & defmacro
+    - [ ] symbol-macrolet & define-symbol-macro
+    - [ ] block & return-from
+    - [ ] tagbody & go
+    - [ ] catch & throw
+    - [ ] unwind-protect
+    - [ ] values & multiple-value-list
+    - [ ] eval-when
+    - [ ] load-time-value, progv, locally, the (may be removed)
+- [ ] threads
+  - [ ] start-thread
+  - [ ] kill-thread
+  - [ ] check-thread
+- [ ] sockets
+  - [ ] open-socket
+  - [ ] close-socket
+  - [ ] make-socket-server
+  - [ ] accept-connection
+  - [ ] socket-status
+  - [ ] socket-send
+  - [ ] socket-recieve
+- [ ] screen access
+  - [ ] set-pixel
+- [ ] files
+  - [ ] open-file
+  - [ ] find-files
+  - [ ] close-file
+  - [ ] file-write
+  - [ ] file-read
+- [ ] keyboard/mouse interaction
+  - this may be implemented as a socket stream containing a queue of mouse/keyboard events.
