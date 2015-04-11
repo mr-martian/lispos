@@ -1,6 +1,6 @@
 This is the Lisp specification for this project. It lists all functions which will be available to the Lisp layer.
 
-This standard is **0%** implemented **(0/0 items complete)**
+This standard is **0%** implemented **(0/55 items complete)**
 
 - [ ] language
   - [ ] conses
